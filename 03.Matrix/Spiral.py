@@ -1,3 +1,7 @@
+# https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1
+
+
+
 def Spiral(arr):
     result=[]
     sr,sc=0,0

@@ -6,6 +6,8 @@ def Nfibonacci(n):
     else :
         return Nfibonacci(n-1)+Nfibonacci(n-2)
 
+##########################################################
+
 def HashFib(n,memoize={1:0,2:1}):
     if n in memoize:
         return memoize[n]

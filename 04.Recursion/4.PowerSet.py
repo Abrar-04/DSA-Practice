@@ -8,6 +8,9 @@ def PowerSet(arr):
             subsets.append(curSub+[ele])
     return subsets
 
+
+#################################################################
+
 # Recursive
 # wrt to : last element is added to to every subset 
 def powerset(arr,idx=None):
